@@ -115,14 +115,13 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
                 <div className={`font-bold bg-gradient-to-r from-slate-800 to-slate-900 bg-clip-text text-transparent group-hover:from-amber-600 group-hover:to-orange-600 transition-all duration-300 ${
                   !isScrolled ? 'text-white' : ''
                 }`}>
-                  CAFTAN
+                  Cafior
                 </div>
                 <div className={`text-xs sm:text-sm font-light tracking-[0.3em] mt-1 transition-all duration-300 ${
                   isScrolled 
                     ? 'text-amber-600 group-hover:text-orange-600' 
                     : 'text-amber-300 group-hover:text-amber-100'
                 }`}>
-                  ROYAL MAROC
                 </div>
                 
                 {/* Effet de brillance sur le logo */}
