@@ -52,7 +52,7 @@ const ContactPage: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      primary: 'ikramRadouani@gmail.com',
+      primary: 'Cafior-83@gmail.com@',
       secondary: 'ikramRadouani2@gmail.com',
       color: 'from-blue-400 to-indigo-500'
     },
@@ -73,8 +73,8 @@ const ContactPage: React.FC = () => {
     {
       icon: MapPin,
       title: 'Showroom',
-      primary: '123 Rue de la Paix',
-      secondary: '75001 Paris, France',
+      primary: 'Toulon 83000, France ',
+      secondary: 'Fez, Maroc',
       color: 'from-rose-400 to-pink-500'
     }
   ];
@@ -534,7 +534,7 @@ const ContactPage: React.FC = () => {
       </section>
 
       {/* Styles CSS pour les animations */}
-      <style jsx>{`
+      <style>{`
         @keyframes slideUp {
           from {
             opacity: 0;

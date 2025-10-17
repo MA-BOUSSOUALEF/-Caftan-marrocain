@@ -70,7 +70,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
                 <div className="w-8 h-8 bg-gradient-to-br from-rose-400 to-pink-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <Mail className="w-4 h-4 text-white" />
                 </div>
-                <span className="font-light tracking-wide">IkramRadouani@gmail.com</span>
+                <span className="font-light tracking-wide">Cafior-83@gmail.com</span>
               </div>
             </div>
             
